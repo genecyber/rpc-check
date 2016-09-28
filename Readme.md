@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/rpc-check.svg)](https://badge.fury.io/js/rpc-check)
 
-[![Build Status](https://travis-ci.org/rpc-check/rpc-check.svg?branch=master)](https://travis-ci.org/rpc-check/rpc-check)
+[![Build Status](https://travis-ci.org/sebs/rpc-check.svg?branch=master)](https://travis-ci.org/sebs/rpc-check)
 
 
 Checks for JSON RPC nodes of ethereum nodes and displays basic statistics
