@@ -1,8 +1,9 @@
 # RPC Check
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/sebs/rpc-check/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/rpc-check.svg)](https://badge.fury.io/js/rpc-check)
 
-[![npm version](https://badge.fury.io/js/michikoid-cli.svg)](https://badge.fury.io/js/michikoid-cli)
+[![Build Status](https://travis-ci.org/rpc-check/rpc-check.svg?branch=master)](https://travis-ci.org/rpc-check/rpc-check)
+
 
 Checks for JSON RPC nodes of ethereum nodes and displays basic statistics
 
