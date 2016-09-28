@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "marked-man ./doc/rpc-check.md > ./doc/rpc-check.1",
     "check:local": "rpc-check http://localhost:8545",
-    "preversion": "npm run docs && git commit ./doc -m manpages && git push"
+    "postversion": "git push && git push --tags"
   },
   "man": "./doc/rpc-check.1",
   "bin": {
