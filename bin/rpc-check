@@ -22,14 +22,19 @@ if (program.args.length < 1) {
 
 var cli = new Cli(program);
 
-
 function runCheck(cli) {
   var version = cli.web3.version.node;
   var network = cli.web3.version.network;
+
   var mining = cli.web3.eth.mining;
   var accounts = cli.web3.eth.accounts;
   var gasPrice = new BigNumber(cli.web3.eth.gasPrice).toNumber();
-  var results = { version, network, mining, accounts: accounts.length, gasPrice};
+  var lastBlock = cli.web3.eth.blockNumber;
+
+  var peerCount = cli.web3.net.peerCount;
+
+
+  var results = { version, network, mining, accounts: accounts.length, gasPrice, lastBlock, net: {peerCount}};
 
   var keys = Object.keys(results);
   if (!program.json) {
@@ -39,8 +44,6 @@ function runCheck(cli) {
   } else {
     console.log(JSON.stringify(results))
   }
-
-
 }
 try {
   cli.run(runCheck);
