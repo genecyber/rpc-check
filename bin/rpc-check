@@ -12,6 +12,7 @@ program.version(version, '-v, --version');
 program
   .description('RPC Check - Checks for Ethereum JSON RPC Nodes')
   .usage('[options] <uri>')
+  .option('--json', 'only JSON output')
   .parse(process.argv);
 
 // print help with no args
@@ -22,13 +23,20 @@ if (program.args.length < 1) {
 var cli = new Cli(program);
 cli.run(function(cli) {
   var version = cli.web3.version.node;
-  console.log('version', version);
   var network = cli.web3.version.network;
-  console.log('network', network);
   var mining = cli.web3.eth.mining;
-  console.log('mining', mining);
   var accounts = cli.web3.eth.accounts;
-  console.log('accounts', accounts.length);
   var gasPrice = new BigNumber(cli.web3.eth.gasPrice).toNumber();
-  console.log('gasPrice', gasPrice);
+  var results = { version, network, mining, accounts: accounts.length, gasPrice};
+
+  var keys = Object.keys(results);
+  if (!program.json) {
+    keys.map(function(key) {
+      console.log(key, results[key]);
+    });
+  } else {
+    console.log(JSON.stringify(results))
+  }
+
+
 });
