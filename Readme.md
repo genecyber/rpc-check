@@ -2,7 +2,7 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/sebs/rpc-check/blob/master/LICENSE)
 
-[![Release](http://img.shields.io/github/release/sebs/rpc-check.svg?style=flat-square)](https://github.com/sebs/rpc-check/releases)
+[![npm version](https://badge.fury.io/js/michikoid-cli.svg)](https://badge.fury.io/js/michikoid-cli)
 
 Checks for JSON RPC nodes of ethereum nodes and displays basic statistics
 

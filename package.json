@@ -19,8 +19,8 @@
     "rpc-check": "./bin/rpc-check"
   },
   "readme": "./Readme.md",
-  "author": "",
-  "license": "ISC",
+  "author": "Sebastian Schürmann",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
     "marked": "^0.3.6",
