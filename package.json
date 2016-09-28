@@ -1,0 +1,24 @@
+{
+  "name": "rpc-check",
+  "version": "1.0.0",
+  "description": "RPC Check - Checks for Ethereum JSON RPC Nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "michikoid": "./bin/rpc-check"
+  },
+  "readme": "Readme.md",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^2.4.0",
+    "commander": "^2.9.0",
+    "web3": "^0.17.0-beta"
+  }
+}

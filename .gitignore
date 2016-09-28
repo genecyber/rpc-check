@@ -1,0 +1,7 @@
+out
+node_modules
+build
+.contracts
+.contract_cache
+db.json
+foo.json
