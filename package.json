@@ -18,7 +18,7 @@
   "bin": {
     "rpc-check": "./bin/rpc-check"
   },
-  "readme": "./Readme.md",
+  "readme": "Readme.md",
   "author": "Sebastian Schürmann",
   "license": "MIT",
   "devDependencies": {
