@@ -13,7 +13,7 @@
   "bin": {
     "rpc-check": "./bin/rpc-check"
   },
-  "readme": "Readme.md",
+  "readme": "./Readme.md",
   "author": "",
   "license": "ISC",
   "devDependencies": {
