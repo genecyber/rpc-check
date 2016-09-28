@@ -9,6 +9,11 @@
     "check:local": "rpc-check http://localhost:8545",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebs/rpc-check.git"
+  },
+  "public": true,
   "man": "./doc/rpc-check.1",
   "bin": {
     "rpc-check": "./bin/rpc-check"
