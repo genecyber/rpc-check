@@ -21,7 +21,9 @@ if (program.args.length < 1) {
 }
 
 var cli = new Cli(program);
-cli.run(function(cli) {
+
+
+function runCheck(cli) {
   var version = cli.web3.version.node;
   var network = cli.web3.version.network;
   var mining = cli.web3.eth.mining;
@@ -39,4 +41,11 @@ cli.run(function(cli) {
   }
 
 
-});
+}
+try {
+  cli.run(runCheck);
+} catch(e) {
+  console.error(e.message);
+  process.exit(1)
+}
+process.exit(0)
