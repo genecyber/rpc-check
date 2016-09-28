@@ -4,10 +4,11 @@
   "description": "RPC Check - Checks for Ethereum JSON RPC Nodes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:local": "rpc-check http://localhost:8545"
   },
   "bin": {
-    "michikoid": "./bin/rpccheck"
+    "rpc-check": "./bin/rpc-check"
   },
   "readme": "Readme.md",
   "author": "",

@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+'use strict';
+// MEAN CLI.
+var program = require('commander');
+var Cli = require('../cli');
+var BigNumber = require('bignumber.js');
+
+// set program version
+var version = require('../package').version;
+program.version(version, '-v, --version');
+
+program
+  .description('RPC Check - Checks for Ethereum JSON RPC Nodes')
+  .usage('[options] <uri>')
+  .parse(process.argv);
+
+// print help with no args
+if (program.args.length < 1) {
+  program.help();
+}
+
+var cli = new Cli(program);
+cli.run(function(cli) {
+  var version = cli.web3.version.node;
+  console.log('version', version);
+  var network = cli.web3.version.network;
+  console.log('network', network);
+  var mining = cli.web3.eth.mining;
+  console.log('mining', mining);
+  var accounts = cli.web3.eth.accounts;
+  console.log('accounts', accounts.length);
+  var gasPrice = new BigNumber(cli.web3.eth.gasPrice).toNumber();
+  console.log('gasPrice', gasPrice);
+});
