@@ -23,8 +23,12 @@ if (program.args.length < 1) {
 var cli = new Cli(program);
 
 function runCheck(cli) {
-  var version = cli.web3.version.node;
   var network = cli.web3.version.network;
+
+  var version = {
+    api: cli.web3.version.api,
+    node: cli.web3.version.node
+  }
 
   var mining = cli.web3.eth.mining;
   var accounts = cli.web3.eth.accounts;
@@ -33,8 +37,15 @@ function runCheck(cli) {
 
   var peerCount = cli.web3.net.peerCount;
 
-
-  var results = { version, network, mining, accounts: accounts.length, gasPrice, lastBlock, net: {peerCount}};
+  var results = {
+    version,
+    mining,
+    network,
+    accounts: accounts,
+    gasPrice,
+    lastBlock,
+    net: {peerCount}
+  };
 
   var keys = Object.keys(results);
   if (!program.json) {
