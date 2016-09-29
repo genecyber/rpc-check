@@ -12,6 +12,7 @@ program.version(version, '-v, --version');
 program
   .description('RPC Check - Checks for Ethereum JSON RPC Nodes')
   .usage('[options] <uri>')
+  .option('--block', 'include the last block')
   .option('--json', 'only JSON output')
   .parse(process.argv);
 
@@ -56,6 +57,11 @@ function runCheck(cli) {
       mining
     }
   };
+
+  if (program.block) {
+    var lastBlockContent = cli.web3.eth.getBlock(lastBlock);
+    results.lastBlock = lastBlockContent;
+  }
 
   var keys = Object.keys(results);
   if (!program.json) {
