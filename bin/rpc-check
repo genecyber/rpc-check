@@ -37,16 +37,24 @@ function runCheck(cli) {
 
   var peerCount = cli.web3.net.peerCount;
   var listening = cli.web3.net.listening;
+  var host = program.args[0];
 
 
   var results = {
+    host,
     version,
-    mining,
     network,
     accounts: accounts,
     gasPrice,
     lastBlock,
-    net: {peerCount, listening}
+    net: {
+      peerCount,
+      listening
+    },
+    eth: {
+      defaultAccount:   cli.web3.eth.defaultAccount,
+      mining
+    }
   };
 
   var keys = Object.keys(results);
