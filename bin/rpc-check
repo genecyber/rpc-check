@@ -36,6 +36,8 @@ function runCheck(cli) {
   var lastBlock = cli.web3.eth.blockNumber;
 
   var peerCount = cli.web3.net.peerCount;
+  var listening = cli.web3.net.listening;
+
 
   var results = {
     version,
@@ -44,7 +46,7 @@ function runCheck(cli) {
     accounts: accounts,
     gasPrice,
     lastBlock,
-    net: {peerCount}
+    net: {peerCount, listening}
   };
 
   var keys = Object.keys(results);
