@@ -1,6 +1,8 @@
 2016-09-30
 ==========
 
+  * 2.7.2
+  * (fix): Add missing changelog package
   * changelog
   * 2.7.1
   * (docs): Autogenerate a changelog
