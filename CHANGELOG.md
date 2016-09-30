@@ -1,8 +1,8 @@
 2016-09-30
 ==========
 
-  * 2.7.1
   * changelog
+  * 2.7.1
   * (docs): Autogenerate a changelog
     I am hereby vowing to write  a bit more in commit messages ;)
   * 2.7.0
