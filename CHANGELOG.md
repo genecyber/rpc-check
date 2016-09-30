@@ -1,9 +1,12 @@
 2016-09-30
 ==========
 
+  * 2.7.3
+  * (churn): keywords
+  * i(churn): test node 4-6
+  * changelog
   * 2.7.2
   * (fix): Add missing changelog package
-  * changelog
   * 2.7.1
   * (docs): Autogenerate a changelog
     I am hereby vowing to write  a bit more in commit messages ;)
