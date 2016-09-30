@@ -7,6 +7,9 @@
 
 Checks for JSON RPC nodes of ethereum nodes and displays basic statistics
 
+* [License](./LICENSE)
+* [Changelog](./CHANGELOG.md)
+
 ## Usage
 
 
