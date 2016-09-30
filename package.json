@@ -7,7 +7,8 @@
     "test": "mocha",
     "docs": "marked-man ./doc/rpc-check.md > ./doc/rpc-check.1",
     "check:local": "rpc-check http://localhost:8545",
-    "postversion": "git push && git push --tags"
+    "changelog": "rm CHANGELOG.md && changelog https://github.com/sebs/rpc-check all > CHANGELOG.md && git add . && git commit . -m changelog",
+    "postversion": "git push && git push --tags && npm run changelog && git push"
   },
   "repository": {
     "type": "git",
