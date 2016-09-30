@@ -14,6 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/sebs/rpc-check.git"
   },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "rpc",
+    "check",
+    "cli"
+  ],
   "public": true,
   "man": "./doc/rpc-check.1",
   "bin": {
