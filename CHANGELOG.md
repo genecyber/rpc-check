@@ -1,10 +1,21 @@
+2016-10-01
+==========
+
+  * 2.8.0
+  * (feature): a extra, a little malcious call can reveal a bit more about the server.
+    * http request POST to host
+    * no header set
+    * no application type set
+    * Main goal: get cors urls leaked out of the system when it is not acessible
+
 2016-09-30
 ==========
 
+  * (docs): added license and changelog link
+  * changelog
   * 2.7.3
   * (churn): keywords
   * i(churn): test node 4-6
-  * changelog
   * 2.7.2
   * (fix): Add missing changelog package
   * 2.7.1
