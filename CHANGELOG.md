@@ -1,10 +1,15 @@
 2016-10-01
 ==========
 
+  * 3.0.0
+  * (feature): pin to v(feature): pin to v66
+  * (feature): node 6 only
+  * fix
+  * (docs): added a image for the more visual readers
+  * changelog
   * 2.9.0
   * (feature): check accessible account balances
   * (docs): readme section lifted. Why is npm still not displaying readme anyways?
-  * changelog
   * 2.8.0
   * (feature): a extra, a little malcious call can reveal a bit more about the server.
     * http request POST to host
