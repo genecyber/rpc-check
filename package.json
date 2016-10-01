@@ -1,6 +1,6 @@
 {
   "name": "rpc-check",
-  "version": "2.7.3",
+  "version": "2.8.0",
   "description": "RPC Check - Checks for Ethereum JSON RPC Nodes",
   "main": "index.js",
   "scripts": {
