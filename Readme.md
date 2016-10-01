@@ -31,7 +31,6 @@ gasPrice 1
 
 Only JSON output
 
-
 ```
 rpc-check http://localhost:8545 --json
 {
