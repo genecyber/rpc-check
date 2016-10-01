@@ -15,7 +15,7 @@ This tool checks:
 * account funds
 * gas price
 
-[![rpc-check](./docs/rpc-check.png)](./docs/rpc-check.png)
+[![rpc-check](./doc/rpc-check.png)](./doc/rpc-check.png)
 
 * [License](./LICENSE)
 * [Changelog](./CHANGELOG.md)
