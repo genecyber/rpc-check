@@ -1,12 +1,14 @@
 2016-10-01
 ==========
 
+  * 3.0.1
+  * (feature): use the prettyjson module for readable output
+  * changelog
   * 3.0.0
   * (feature): pin to v(feature): pin to v66
   * (feature): node 6 only
   * fix
   * (docs): added a image for the more visual readers
-  * changelog
   * 2.9.0
   * (feature): check accessible account balances
   * (docs): readme section lifted. Why is npm still not displaying readme anyways?
