@@ -14,6 +14,7 @@ class Cli {
     }
     var UpchainProvider = getHttpProvider(Web3.providers.HttpProvider);
     var provider = new UpchainProvider(program.args[0], {}, user, password);
+    this.provider = provider;
     this.web3 = new Web3(provider);
   }
   run(cb) {
