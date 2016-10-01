@@ -1,17 +1,15 @@
-# RPC Check
+# rpc-check
+
+Checks for JSON RPC endpoints of ethereum nodes and displays basic statistics and gives a gist how accessible it is.
 
 [![npm version](https://badge.fury.io/js/rpc-check.svg)](https://badge.fury.io/js/rpc-check)
 
 [![Build Status](https://travis-ci.org/sebs/rpc-check.svg?branch=master)](https://travis-ci.org/sebs/rpc-check)
 
-
-Checks for JSON RPC nodes of ethereum nodes and displays basic statistics
-
 * [License](./LICENSE)
 * [Changelog](./CHANGELOG.md)
 
 ## Usage
-
 
 ```
 rpc-check http://localhost:8545            
