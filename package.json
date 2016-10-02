@@ -29,7 +29,7 @@
   "bin": {
     "rpc-check": "./bin/rpc-check"
   },
-  "readme": "Readme.md",
+  "readme": "README.md",
   "author": "Sebastian Schürmann",
   "license": "MIT",
   "devDependencies": {
