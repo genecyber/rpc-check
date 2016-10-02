@@ -1,9 +1,13 @@
 2016-10-02
 ==========
 
+  * 3.1.3
+  * (donfig): set correct main
+  * (config): added homepage
+  * (churn): move dependency changelog to dev
+  * changelog
   * 3.1.2
   * (docs): moving the readme for npm website
-  * changelog
   * 3.1.1
   * (feature): stricter checking for errors of api calls
   * 3.1.0
