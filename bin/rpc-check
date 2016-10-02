@@ -14,6 +14,7 @@ program
   .description('RPC Check - Checks for Ethereum JSON RPC Nodes')
   .usage('[options] <uri>')
   .option('--block', 'include the last block')
+  .option('--verbose', 'verbose output')
   .option('--json', 'only JSON output')
   .parse(process.argv);
 
@@ -26,7 +27,12 @@ var cli = new Cli(program);
 try {
   cli.run(commandRunCheck);
 } catch(e) {
-  console.error(e.message);
+  if (!program.verbose){
+    console.error(e.message);
+  } else {
+    console.error(e);
+  }
+
   process.exit(1)
 }
 process.exit(0)
