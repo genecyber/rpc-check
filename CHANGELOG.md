@@ -1,9 +1,18 @@
+2016-10-02
+==========
+
+  * 3.1.0
+  * (feature): error handling
+    * catching all errors on every getter, due to apis not open, there might be some
+    * adding a --verbose parameter
+    * adding a little error, where ever the calls fail
+
 2016-10-01
 ==========
 
+  * changelog
   * 3.0.1
   * (feature): use the prettyjson module for readable output
-  * changelog
   * 3.0.0
   * (feature): pin to v(feature): pin to v66
   * (feature): node 6 only
