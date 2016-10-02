@@ -1,9 +1,11 @@
 2016-10-02
 ==========
 
+  * 3.1.2
+  * (docs): moving the readme for npm website
+  * changelog
   * 3.1.1
   * (feature): stricter checking for errors of api calls
-  * changelog
   * 3.1.0
   * (feature): error handling
     * catching all errors on every getter, due to apis not open, there might be some
