@@ -5,7 +5,7 @@
     "node": ">= 6.0.0"
   },
   "description": "RPC Check - Checks for Ethereum JSON RPC Nodes",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "mocha",
     "docs": "marked-man ./doc/rpc-check.md > ./doc/rpc-check.1",
