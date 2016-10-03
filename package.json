@@ -30,7 +30,6 @@
     "rpc-check": "./bin/rpc-check"
   },
   "homepage": "https://github.com/sebs/rpc-check",
-  "readme": "README.md",
   "author": "Sebastian Schürmann",
   "license": "MIT",
   "devDependencies": {
