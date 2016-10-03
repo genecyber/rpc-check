@@ -1,6 +1,9 @@
 2016-10-03
 ==========
 
+  * 3.1.5
+  * i(churn): cosmetics and a badge
+  * changelog
   * 3.1.4
   * (fix): readme on npm
 
