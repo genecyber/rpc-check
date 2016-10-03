@@ -3,7 +3,6 @@ var url = require('url');
 var getHttpProvider = require('upchain-web3-http-provider');
 var parse = require('url').parse;
 
-
 class Cli {
   constructor(program) {
     this.program = program;
