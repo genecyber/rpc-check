@@ -1,6 +1,12 @@
+2016-10-05
+==========
+
+  * 3.2.1
+
 2016-10-04
 ==========
 
+  * changelog
   * 3.2.0
   * (feature): error messages displayed now
 
@@ -114,5 +120,3 @@
   * (feature): manpage
   * 1.3.0
   * shields
-  * (docs): added badges
-  * 1.2.0
