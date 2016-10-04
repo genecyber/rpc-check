@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 'use strict';
-// MEAN CLI.
 var program = require('commander');
 var Cli = require('../cli');
 
@@ -32,7 +31,6 @@ try {
   } else {
     console.error(e);
   }
-
   process.exit(1)
 }
 process.exit(0)
