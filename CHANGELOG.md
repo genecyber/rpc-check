@@ -1,9 +1,16 @@
+2016-10-04
+==========
+
+  * 3.2.0
+  * (feature): error messages displayed now
+
 2016-10-03
 ==========
 
+  * (docs): new image
+  * changelog
   * 3.1.5
   * i(churn): cosmetics and a badge
-  * changelog
   * 3.1.4
   * (fix): readme on npm
 
@@ -109,7 +116,3 @@
   * shields
   * (docs): added badges
   * 1.2.0
-  * (feature): all namings correct
-  * i(fix): rename
-  * 1.1.0
-  * (feature): INitial commit
