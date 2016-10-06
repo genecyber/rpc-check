@@ -1,6 +1,13 @@
+2016-10-07
+==========
+
+  * 3.2.2
+  * i(feature): check for extra long input
+
 2016-10-05
 ==========
 
+  * changelog
   * 3.2.1
 
 2016-10-04
@@ -117,6 +124,3 @@
   * 1.4.0
   * (churn): postversion
   * (churn): link in package
-  * (feature): manpage
-  * 1.3.0
-  * shields
