@@ -22,6 +22,12 @@ if (program.args.length < 1) {
   program.help();
 }
 
+// print help with no args
+if (program.args[0].length > 2048) {
+  console.error('invalid args length');
+  process.exit(1);
+}
+
 var cli = new Cli(program);
 try {
   cli.run(commandRunCheck);
