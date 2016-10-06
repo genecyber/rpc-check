@@ -1,6 +1,6 @@
 {
   "name": "rpc-check",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "engines": {
     "node": ">= 6.0.0"
   },
