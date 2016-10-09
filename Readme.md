@@ -4,18 +4,41 @@
 
 Checks for JSON RPC endpoints of ethereum nodes and displays basic statistics and gives a gist how accessible it is.
 
-Reason for this tool to exist: There is like 10 mistakes a lot fo people make with their RPC nodes and most of them are revealed by this cli tool.
+```bash
+➜  rpc-check -h
 
+  Usage: rpc-check [options] <uri>
+
+  RPC Check - Checks for Ethereum JSON RPC Nodes
+
+  Options:
+
+    -h, --help     output usage information
+    -v, --version  output the version number
+    --block        include the last block
+    --verbose      verbose output
+    --json         only JSON output
+```
+
+
+Reason for this tool to exist: There is like 10 mistakes a lot of people make with their RPC nodes and some of them are revealed by this cli tool.
+
+[![rpc-check](./doc/rpc-check.png)](./doc/rpc-check.png)
 
 
 This tool checks:
 
-* host http headers accounts accessible to web3
-* mining and peer count status
-* account funds
-* gas price
-
-[![rpc-check](./doc/rpc-check.png)](./doc/rpc-check.png)
+* version
+  * api
+  * node  
+  * network
+* accounts
+* net
+  * peer count
+  * last block
+  * syncing
+  * hashrate
+  * mining
 
 * [License](./LICENSE)
 * [Changelog](./CHANGELOG.md)
