@@ -1,6 +1,13 @@
+2016-10-09
+==========
+
+  * 3.2.3
+  * (churn): fix docs
+
 2016-10-07
 ==========
 
+  * changelog
   * 3.2.2
   * i(feature): check for extra long input
 
@@ -121,6 +128,3 @@
   * 1.6.0
   * 1.5.0
   * i(feature): json
-  * 1.4.0
-  * (churn): postversion
-  * (churn): link in package
